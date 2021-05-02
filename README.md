@@ -20,7 +20,7 @@ if ($conn->query($sql) === TRUE) {
 } else {
     echo "Error:" . $conn->error;
 }
-echo "<br> <a href=\"home.php\">Go Back to Admin Menu!!!</a> ";
+echo "<br> <a href=\"home.php\">Go Back to Menu!!!</a> ";
 
 $conn->close();
 ?>
